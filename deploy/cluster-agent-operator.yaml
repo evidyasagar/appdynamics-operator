@@ -119,11 +119,7 @@ rules:
     resources:
       - pods
       - nodes
-    verbs:
-      - get
-      - list
-      - watch
-  - apiGroups:
+ - apiGroups:
       - appdynamics.com
     resources:
       - '*'
